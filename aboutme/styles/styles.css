@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+
+}
+
+h1{
+    background-color: aliceblue;
+    color: blueviolet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img{
+    height: 400px;
+    width: 450px;
+}
