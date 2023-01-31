@@ -7,8 +7,10 @@ h1{
     background-color: aliceblue;
     color: blueviolet;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
 }
-img{
-    height: 400px;
-    width: 450px;
+
+#hero-img {
+    width: 80%;
+    margin: 0 auto;
 }
