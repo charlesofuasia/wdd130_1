@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Nunito:wght@300&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +7,9 @@ nav a {
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px;
+    font-weight: "DM Serif Display", Georgia, serif;
+    font-size: 1.5em;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -21,6 +25,10 @@ main section {
 }
 body{
     background-color: #e8f1ff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
 }
 header {
     background-color: #76bed0;
@@ -33,6 +41,10 @@ nav a:hover {
     background-color: #185db3;
     color: #e8f1ff;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #76bed0;
@@ -47,6 +59,8 @@ nav a:hover {
 footer {
     background-color: #76bed0;
     color: black;
+    padding: 25px 50px;
+    margin-top: 50px;
 }
 footer a{
     color: black;
@@ -61,24 +75,58 @@ footer a:hover {
 h4 {
     color: black;
 }
+h2 {
+    margin: 0;
+}
 .msg h2 {
     color: black;
 }
 .msg p {
     color: black;
+    font-size: 0.8em;
 }
 .logo {
     width: 80px;
 }
+#logo-link {
+    padding-top: 5px;
+}
 .icon {
     width: 80px;
+    padding-top: 15px;
 }
 #hero-img {
     width: 100%;
 }
 footer p {
-    font-size: 1.2em;
+    font-size: 0.8em;
+    font-family: Nunito, Arial, Helvetica, sans-serif, sans-serif;
 }
 footer p a:hover {
     text-decoration: underline;
+}
+footer .socials img {
+    padding-top: 15px;
+}
+#hero-msg{
+    font-family: "DM Serif Display", Georgia, serif;
+    font-size: 2em;
+}
+section h2 {
+    font-family: "DM Serif Display", Georgia, serif;
+}
+section p {
+    font-family: Nunito, Arial, Helvetica, sans-serif, sans-serif;
+    font-size: 1.2em;
+}
+.card-image {
+    border: 10px solid #185db3;
+    width: 400px;
+    margin-top: 35px;
+}
+main section img {
+    box-sizing: border-box;
+}
+#hero {
+    text-align: center;
 }
