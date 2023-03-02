@@ -199,6 +199,38 @@ main section img {
     opacity: 0.7;
     transform: scale(1.2);
 }
+
+/*css for our rates page*/
+#rates-grid{
+    margin: 5px;
+    text-align: center;
+}
+.trip-box{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 25px;
+    border: 2px solid #185db3;
+    margin-top: 25px;
+}
+.rate-box {
+    text-align: start;
+    padding-left: 25px;
+}
+.photo-card {
+    width: 100%;
+}
+#rate-heading {
+    font-family: "DM Serif Display", Georgia, serif;
+    font-size: 2.5em;
+}
+.mini-headline {
+    font-family: "DM Serif Display", Georgia, serif;
+    font-size: 1.25em;
+    margin-top: -5px;
+}
+
+/*media query section*/
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -238,5 +270,9 @@ main section img {
     }
     footer {
         margin-top: 25px;
+    }
+    .trip-box {
+        display: block;
+        margin: 50px auto;
     }
 }
