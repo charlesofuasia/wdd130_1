@@ -19,18 +19,19 @@
         </nav>
     </header>
     <main>
-        <div>
-            <h1>Contact Us</h1>
-            <h4>Visit us today</h4>
-            <p>We are along Lekki Epe Expressway at
+        <div id="contact-intro">
+            <h1 class="main-title">Contact Us</h1>
+            <h4 class="contact-invite">Visit us today</h4>
+            <p class="contact-address">We are along Lekki Epe Expressway at
                 1 Office Depot Street, Beside NNPC Petrol Station, Opposite Lufasi Nature Park, Majek Bus Stop, Ajah, Lagos.</p>
         </div>
-        <div>
-            <div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.415065459216!2d3.654165114590126!3d6.468989595320147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf93c435ab575%3A0xf93c1029c8bf57c1!2sGibbs%20Opticians!5e0!3m2!1sen!2sng!4v1678209016262!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="contact-frame">
+            <div class="map-frame">
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.415065459216!2d3.654165114590126!3d6.468989595320147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf93c435ab575%3A0xf93c1029c8bf57c1!2sGibbs%20Opticians!5e0!3m2!1sen!2sng!4v1678209016262!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <div>
-                <form action="">
+            <div class="form-box">
+                <p>We would love to hear from you. Drop us a line and we will get in touch with you.</p>
+                <form action="mailto:gibbsopticians@gmail.com" method="post">
                     <ul>
                         <li>
                             <label for="name">Name: </label>
@@ -49,6 +50,9 @@
                             <textarea name="visitor_message" id="msg" cols="30" rows="10"></textarea>
                            
                         </li>
+                        <li class="button">
+                            <button type="submit">Send</button>
+                        </li>
                     </ul>
                 </form>
             </div>
@@ -58,7 +62,7 @@
     <footer>
         <p>&copy; 2023 Gibbs Opticians</p>
         <a href="#">Contact Us</a>
-        <a href="site-plan.html">Site Plan</a>
+        <a href="site-plan.html" target="_blank">Site Plan</a>
         <a href="#"><img src="images/facebook.png" alt="facebook icon"></a>
         <a href="#"><img src="images/twitter.png" alt="twitter icon"></a>
     </footer>
